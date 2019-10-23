@@ -25,7 +25,7 @@ module.exports = {
     new webpack.BannerPlugin('Created by rob'),
     new HtmlWebpackPlugin({
       filename: './index.html',
-      template: './index.html',
+      template: './src/index.html',
       inject: 'body',
       hash: true
     }),

@@ -1,8 +1,8 @@
 import Vue from './lib/vue.js';
-import ButtonComponent from '../component/ButtonComponent.vue';
-import Hello from '../component/Hello.vue';
-import Assign from '../component/Assign.vue';
-import '../css/style.css';
+import ButtonComponent from './component/ButtonComponent.vue';
+import Hello from './component/Hello.vue';
+import Assign from './component/Assign.vue';
+import './css/style.css';
 Vue.component('button-counter', {
   data() {
     return {
