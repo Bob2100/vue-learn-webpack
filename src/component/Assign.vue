@@ -8,7 +8,7 @@
 
 <script>
   export default {
-    name: "Instance",
+    name: "Assign",
     data() {
       return {
         title: "A Vue App",

@@ -4,6 +4,7 @@
 
 <script>
 module.exports = {
+  name: 'Hello',
   data: function () {
     return {
       greeting: 'Hello'

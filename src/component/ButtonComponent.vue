@@ -6,7 +6,7 @@
 </template>
 <script>
 export default {
-  name: "Instance",
+  name: "ButtonComponent",
   data() {
     return {
       title: "A Vue App"

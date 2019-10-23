@@ -1,3 +1,13 @@
-body{
-  background-color: cadetblue;
+.btn{
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px 12px;
+}
+.btn-text{
+  color: #409eff;
+  background-color: transparent;
+}
+.btn-text:hover{
+  color: #66b1ff;
 }

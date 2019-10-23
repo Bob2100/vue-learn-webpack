@@ -4,6 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
 const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 module.exports = {
+  devtool: 'source-map',
   entry: './src/main.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
