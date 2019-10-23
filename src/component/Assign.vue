@@ -15,12 +15,6 @@
         obj: {}
       };
     },
-    // created() {
-    //   Object.assign(this.obj, {
-    //     profile: "This is a Vue App."
-    //   });
-    //   console.log('created', this.obj);
-    // },
     created(){
       this.$set(this.obj, 'profile', 'This is a Vue App.');
       console.log('created', this.obj);
