@@ -11,3 +11,21 @@
 .btn-text:hover{
   color: #66b1ff;
 }
+.tabs{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.per-tab{
+  display: inline-block;
+  width: 120px;
+  line-height: 32px;
+  border-top: 1px solid #ccc;
+}
+.per-tab:last-child{
+  border-right: 1px solid #ccc;
+}
+.tab-content{
+  height: 240px;
+  border: 1px solid #ccc;
+}

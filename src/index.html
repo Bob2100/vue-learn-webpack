@@ -9,9 +9,13 @@
 
 <body>
   <div id="app">
-    <fly-table :fields="fields" :goods="goods">
-      <span slot="title">Fly Table Component</span>
-    </fly-table>
+    <ul class="tabs">
+      <li class="per-tab" @click="toggleView('Home')">Home</li>
+      <li class="per-tab" @click="toggleView('About')">About</li>
+    </ul>
+    <div class="tab-content">
+      <component :is="view"></component>
+    </div>
   </div>
 </body>
 
